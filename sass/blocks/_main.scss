@@ -1,0 +1,75 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 1336px;
+
+    &__left{
+        width: 648px;
+    }
+
+    &__link {
+        text-decoration: none;
+        color: #000000;
+    }
+
+    &__link:hover {
+        color: #181883;
+    }
+    &__tittle {
+        margin: 0;
+    }
+    &__tittle {
+        margin: 0;
+        margin: 29px 0 15px;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 27px;
+        color: #000000;
+    }
+
+    &__text {
+        margin: 0;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 26px;
+        color: #000000;
+    }
+    &__absolute {
+        position: absolute;
+        transform: translateY(-37px);
+    }
+    
+    &__right {
+        width: 658px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 93px;
+    }
+    
+    &__card {
+        position: relative;
+        width: 319px;
+    }
+    
+        &__uzb {
+            position: absolute;
+             transform: translateY(165px) translateX(-319px);
+        }
+
+    
+    &__righttext {
+        margin: 0;
+        margin-top: 15px;
+        font-family: 'Montserrat', sans-serif ;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 22px;
+    }
+}

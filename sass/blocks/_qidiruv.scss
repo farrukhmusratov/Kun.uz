@@ -1,0 +1,61 @@
+.qidiruv {
+
+    &__tittle {
+        margin: 0;
+        padding-top: 30px;
+        padding-left: 25px;
+        padding-bottom: 25px;       
+        width: 547px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 23px;
+        color: #000000;
+
+
+    }
+    &__img {
+        box-shadow: 15px 15px 0px 2px #ffffff;
+        margin-top: -30px;
+    }
+
+    &__link {
+        text-decoration: none;
+    }
+    &__right {
+        width: 658px;
+        height: 440px;
+        background-color: #F0F0F0;
+    }
+    
+    &__link {
+        text-decoration: none;
+    }
+
+    &__text {
+        margin: 0;
+        margin-left: 20px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 23px;
+        color: #000000;
+    }
+
+    &__flex {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+
+    &__left {
+        display: flex;
+        align-items: center;
+        width: 635px;
+        margin-top: -30px;
+        margin-bottom: 40px;
+    }
+
+}

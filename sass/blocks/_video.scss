@@ -1,0 +1,94 @@
+.video {
+    width: 1336px;
+    display: flex;
+    justify-content: space-between;
+
+    &__left {
+        width: 655px;
+    }
+
+    &__link {
+        text-decoration: none;
+    }
+
+    &__text {
+        margin: 0;
+        padding: 0 20px 0px 20px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 23px;
+        line-height: 126.25%;
+        color: #FFFFFF;
+    }
+
+    &__play {
+        margin: 158px 291px 80px 285px;
+        cursor: pointer;
+    }
+    &__bg {
+        background-image: url("./../../img/sudya.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 415px;
+    }
+    &__bg2 {
+        background-image: url("./../../img/stadion.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 415px;
+    }
+
+    &__tittle {
+        margin: 0;
+        margin-top: 10px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 15px;
+        color: #000000;
+    }
+
+    &__tetl {
+        margin: 0;
+        margin-top: 10px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+    }
+
+    &__card {
+        margin-top: 20px;
+    }
+
+    &__flex {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__player {
+        position: absolute;
+        transform: translateX(-200px) translateY(50px);
+        cursor: pointer;
+    }
+
+    &__pley {
+        position: absolute;
+        transform:translateX(110px) translateY(150px) ;
+        
+    }
+
+}
+.color {
+    color: #304FFF;
+}
+.card__flex {
+    width: 319px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
